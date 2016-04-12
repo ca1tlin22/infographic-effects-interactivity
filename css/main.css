@@ -1,0 +1,124 @@
+@-moz-viewport { width: device-width; scale: 1; }
+@-ms-viewport { width: device-width; scale: 1; }
+@-o-viewport { width: device-width; scale: 1; }
+@-webkit-viewport { width: device-width; scale: 1; }
+@viewport { width: device-width; scale: 1; }
+
+html {
+  box-sizing: border-box;
+  -moz-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+
+  font-family: "Amatic SC", serif;
+  font-family: "Open Sans", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+.elements {
+  margin: 0 auto;
+  width: 100%;
+  position: relative;
+}
+
+.ticket svg {
+  width: 100%;
+  position: absolute;
+  z-index: 5;
+  transform: rotate(-10deg);
+}
+
+.ticket svg:hover {
+  animation: wobble 300ms 6 alternate ease-in-out;
+}
+
+@keyframes wobble {
+
+  0% { transform: rotate(-20deg); }
+
+  100% { transform: rotate(20deg); }
+
+}
+
+.lollipop svg {
+  width: 100%;
+  position: absolute;
+  z-index: 4;
+}
+
+.home svg {
+  width: 100%;
+  position: absolute;
+  top: 55px;
+}
+
+.versus svg {
+  width: 100%;
+  position: absolute;
+}
+
+.numbers svg {
+  width: 100%;
+  position: absolute;
+  top: 22px;
+}
+
+.tick-pop svg {
+  top: 175px;
+}
+
+.versus svg:hover, .numbers svg:hover, .lollipop svg:hover {
+  z-index: 5;
+}
+
+@media only screen and (min-width: 38em) {
+
+  .elements {
+    width: 70%;
+  }
+
+  .tick-pop svg {
+    top: 200px;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .elements {
+    width: 60%;
+  }
+
+  .tick-pop svg {
+    top: 260px;
+  }
+
+}
+
+@media only screen and (min-width: 90em) {
+
+  .elements {
+    width: 50%;
+  }
+
+  .tick-pop svg {
+    top: 305px;
+  }
+
+}
+
+@media only screen and (min-width: 145em) {
+
+  .elements {
+    width: 40%;
+  }
+
+  .tick-pop svg {
+    top: 500px;
+  }
+
+}
