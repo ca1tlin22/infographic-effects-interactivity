@@ -75,25 +75,25 @@ html {
   z-index: 5;
 }
 
-.paragrine {
+.para-spin {
   transform-origin: 211.257px 146.473px;
   animation: textspin 1s linear;
   animation-duration: .5s;
 }
 
-.needletail {
+.needle-spin {
   transform-origin: 211.257px 146.473px;
   animation: textspin 1s linear;
   animation-duration: .75s;
 }
 
-.cheetah {
+.cheetah-spin {
   transform-origin: 211.257px 146.473px;
   animation: textspin 1s linear;
   animation-duration: 1s;
 }
 
-.shark {
+.shark-spin {
   transform-origin: 211.257px 146.473px;
   animation: textspin 1s linear;
   animation-duration: 1.25s;
