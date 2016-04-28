@@ -113,6 +113,11 @@ html {
 
 .bubbleone, .bubbletwo, .bubblethree, .bubblefour, .bubblefive, .bubblesix, .bubbleseven {
   fill: #f5ca6a;
+
+/*
+  opacity: 1;
+  transition: opacity 5s linear;
+*/
 }
 
 @media only screen and (min-width: 38em) {
