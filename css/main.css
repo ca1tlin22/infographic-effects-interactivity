@@ -106,9 +106,13 @@ html {
   }
 
   100% {
-    transform: rotate(365deg);
+    transform: rotate(360deg);
   }
 
+}
+
+.bubbleone, .bubbletwo, .bubblethree, .bubblefour, .bubblefive, .bubblesix, .bubbleseven {
+  fill: #f5ca6a;
 }
 
 @media only screen and (min-width: 38em) {
