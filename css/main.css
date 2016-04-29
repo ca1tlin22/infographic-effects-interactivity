@@ -120,8 +120,12 @@ html {
 */
 }
 
-.head {
+.human, .elephant, .lion, .dolphin, .monkey, .bird {
+  opacity: .5;
+}
 
+.human:hover, .elephant:hover, .lion:hover, .dolphin:hover, .monkey:hover, .bird:hover {
+  opacity: 1;
 }
 
 @media only screen and (min-width: 38em) {
