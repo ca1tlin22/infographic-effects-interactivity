@@ -44,34 +44,42 @@ $svg.on('transitioned', function () {
   $(this).remove();
 });
 
-$bubbleone.on('click', function () {
+$bubbleone.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubbleone.toggleClass('bubbleone');
 });
 
-$bubbletwo.on('click', function () {
+$bubbletwo.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubbletwo.toggleClass('bubbletwo');
 });
 
-$bubblethree.on('click', function () {
+$bubblethree.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubblethree.toggleClass('bubblethree');
 });
 
-$bubblefour.on('click', function () {
+$bubblefour.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubblefour.toggleClass('bubblefour');
 });
 
-$bubblefive.on('click', function () {
+$bubblefive.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubblefive.toggleClass('bubblefive');
 });
 
-$bubblesix.on('click', function () {
+$bubblesix.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubblesix.toggleClass('bubblesix');
 });
 
-$bubbleseven.on('click', function () {
+$bubbleseven.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubbleseven.toggleClass('bubbleseven');
 });
 
-$bubbleeight.on('click', function () {
+$bubbleeight.on('click', function (e) {
+  e.stopImmediatePropagation();
   $bubbleeight.toggleClass('bubbleeight');
 });
