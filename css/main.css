@@ -113,11 +113,7 @@ html {
 
 .bubbleone, .bubbletwo, .bubblethree, .bubblefour, .bubblefive, .bubblesix, .bubbleseven, .bubbleeight {
   fill: #def1ee;
-
-/*
-  opacity: 1;
-  transition: opacity 5s linear;
-*/
+  stroke: #f8da9a;
 }
 
 .human, .elephant, .lion, .dolphin, .monkey, .bird {
